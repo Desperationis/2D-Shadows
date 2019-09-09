@@ -1,0 +1,43 @@
+﻿  Ball.cpp
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Segment.h(42,11): warning C4244:  'initializing': conversion from 'T' to 'int', possible loss of data
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Segment.h(42,11): warning C4244:         with
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Segment.h(42,11): warning C4244:         [
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Segment.h(42,11): warning C4244:             T=float
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Segment.h(42,11): warning C4244:         ]
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Ball.cpp(15,74): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Ball.cpp(15,74): warning C4244:         with
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Ball.cpp(15,74): warning C4244:         [
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Ball.cpp(15,74): warning C4244:             T=float
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Ball.cpp(15,74): warning C4244:         ]
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Ball.cpp(16,74): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Ball.cpp(16,74): warning C4244:         with
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Ball.cpp(16,74): warning C4244:         [
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Ball.cpp(16,74): warning C4244:             T=float
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Ball.cpp(16,74): warning C4244:         ]
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Ball.cpp(25,145): warning C4244:  'argument': conversion from 'double' to 'T', possible loss of data
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Ball.cpp(25,145): warning C4244:         with
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Ball.cpp(25,145): warning C4244:         [
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Ball.cpp(25,145): warning C4244:             T=float
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Ball.cpp(25,145): warning C4244:         ]
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Ball.cpp(25,98): warning C4244:  'argument': conversion from 'double' to 'T', possible loss of data
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Ball.cpp(25,98): warning C4244:         with
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Ball.cpp(25,98): warning C4244:         [
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Ball.cpp(25,98): warning C4244:             T=float
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Ball.cpp(25,98): warning C4244:         ]
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Ball.cpp(34,20): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Ball.cpp(36,84): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Ball.cpp(36,84): warning C4244:         with
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Ball.cpp(36,84): warning C4244:         [
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Ball.cpp(36,84): warning C4244:             T=float
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Ball.cpp(36,84): warning C4244:         ]
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Ball.cpp(37,84): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Ball.cpp(37,84): warning C4244:         with
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Ball.cpp(37,84): warning C4244:         [
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Ball.cpp(37,84): warning C4244:             T=float
+C:\Users\smart\Desktop\SFML OOP Template - Copy\test\Source\Ball.cpp(37,84): warning C4244:         ]
+  Generating code
+  55 of 287 functions (19.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    11 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  test.vcxproj -> C:\Users\smart\Desktop\SFML OOP Template - Copy\Release\test.exe
