@@ -4,16 +4,16 @@
 #include "MapManager.h"
 
 int map[144] = { 0,0,0,0,0,0,0,0,0,0,0,0,
+				 0,0,0,0,1,0,0,1,0,0,0,0,
 				 0,0,0,0,0,0,0,0,0,0,0,0,
+				 0,0,0,1,0,0,1,0,1,0,0,0,
+				 0,0,0,0,0,1,0,0,0,0,0,0,
+				 0,0,1,1,1,0,0,1,0,0,0,0,
+				 0,0,0,1,1,1,1,1,0,0,0,0,
 				 0,0,0,0,0,0,0,0,0,0,0,0,
-				 0,0,0,1,0,0,1,0,0,0,0,0,
+				 0,0,0,0,0,1,0,0,1,0,0,0,
 				 0,0,0,0,0,0,0,0,0,0,0,0,
-				 0,0,1,0,0,0,0,1,0,0,0,0,
-				 0,0,0,1,1,1,1,0,0,0,0,0,
-				 0,0,0,0,0,0,0,0,0,0,0,0,
-				 0,0,0,0,0,0,0,0,0,0,0,0,
-				 0,0,0,0,0,0,0,0,0,0,0,0,
-				 0,0,0,0,0,0,0,0,0,0,0,0,
+				 0,1,0,0,0,0,0,0,0,0,0,0,
 				 0,0,0,0,0,0,0,0,0,0,0,0 };
 
 				
@@ -27,9 +27,9 @@ Game::Game(sf::VideoMode mode, std::string title) {
 	//window->setFramerateLimit(60);
 	window->setVerticalSyncEnabled(true);
 
-	managers.push_back(new ObjectManager(*window));
 	managers.push_back(new MapManager(*window));
 	static_cast<MapManager*>(managers.back())->loadMap(map, 66.6f, 12, 12);
+	managers.push_back(new ObjectManager(*window, managers));
 }
 
 void Game::render() const{

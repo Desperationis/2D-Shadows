@@ -10,7 +10,7 @@ MapManager::MapManager(sf::RenderWindow& window){
 }
 
 void MapManager::update() {
-	
+
 }
 void MapManager::render() {
 	window->draw(quads);

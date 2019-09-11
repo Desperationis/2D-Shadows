@@ -3,9 +3,9 @@
 #include "Ball.h"
 #include "MapManager.h"
 
-ObjectManager::ObjectManager(sf::RenderWindow& window) {
+ObjectManager::ObjectManager(sf::RenderWindow& window, std::vector<Manager*>& managers) {
 	this->window = &window;
-	objects.push_back(new Ball(window, 10));
+	objects.push_back(new Ball(window, 360, static_cast<MapManager*>(managers[0])->segments));
 }
 
 void ObjectManager::update() {

@@ -5,7 +5,7 @@
 class Segment;
 class Ball : public Object {
 public:
-	Ball(sf::RenderWindow& window, int count);
+	Ball(sf::RenderWindow& window, int count, std::vector<Segment>& segments);
 	void update() override;
 	void draw(sf::RenderTarget& target, sf::RenderStates states) const override;
 
@@ -15,7 +15,6 @@ public:
 private:
 	sf::VertexArray linesRender;
 	std::vector<Segment> lines;
-
-
-	std::vector<Segment> segments;
+	std::vector<Segment>* segments = nullptr;
+	sf::VertexArray triangles;
 };
