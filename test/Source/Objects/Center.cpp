@@ -1,7 +1,7 @@
 #include "Center.h"
 #define M_PI 3.14159265359
 
-
+#include <iostream>
 Center::Center(sf::RenderWindow & window, SegmentManager& map) : segmentManager() {
 	center.setRadius(10.0f);
 	center.setFillColor(sf::Color(255, 0, 0, 255));
@@ -22,19 +22,24 @@ void Center::update() {
 	updateSegments(mouse);
 	collideSegments(mouse);
 
-
 	// Updates GPU rays
 	segmentManager.update();
 };
 
 void Center::updateSegments(sf::Vector2f& mouse) {
 	for (int i = 0; i < map->segments.size(); i++) {
-		int index = i * 2;
+		int index = i * 3;
 		segmentManager.segments[index].first = mouse;
 		segmentManager.segments[index].second = map->segments[i].first;
 
+		float radian = atan2(map->segments[i].second.y - mouse.y, map->segments[i].second.x - mouse.x);
+		sf::Vector2f offset_l(cos(radian - 0.00001f) * 1000 + mouse.x, sin(radian - 0.00001f) * 1000 + mouse.y);
 		segmentManager.segments[index + 1].first = mouse;
-		segmentManager.segments[index + 1].second = map->segments[i].second;
+		segmentManager.segments[index + 1].second = offset_l;
+	
+		sf::Vector2f offset_r(cos(radian + 0.00001f) * 1000 + mouse.x, sin(radian + 0.00001f) * 1000 + mouse.y);
+		segmentManager.segments[index + 2].first = mouse;
+		segmentManager.segments[index + 2].second = offset_r;
 	}
 }
 

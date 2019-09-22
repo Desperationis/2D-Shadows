@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Source\Manager\MapManager.cpp" />
+    <ClCompile Include="Source\Manager\RadialManager.cpp" />
     <ClCompile Include="Source\Manager\SegmentManager.cpp" />
     <ClCompile Include="Source\Objects\Center.cpp" />
     <ClCompile Include="Source\Game.cpp" />
@@ -149,6 +150,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Manager\MapManager.h" />
+    <ClInclude Include="Source\Manager\RadialManager.h" />
     <ClInclude Include="Source\Manager\SegmentManager.h" />
     <ClInclude Include="Source\Objects\Center.h" />
     <ClInclude Include="Source\Manager\Manager.h" />

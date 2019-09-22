@@ -1,6 +1,6 @@
 #pragma once
 #include "Object.h"
-#include "../Manager/SegmentManager.h"
+#include "../Manager/RadialManager.h"
 
 struct Center : public Object {
 public:
@@ -16,7 +16,7 @@ private:
 private:
 	sf::RenderWindow* window;
 	sf::CircleShape center;
-	SegmentManager segmentManager;
+	RadialManager segmentManager;
 	SegmentManager* map;
 
 };
