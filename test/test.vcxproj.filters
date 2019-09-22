@@ -21,16 +21,19 @@
     <ClCompile Include="Source\Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\ObjectManager.cpp">
+    <ClCompile Include="Source\Manager\ObjectManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\MapManager.cpp">
+    <ClCompile Include="Source\Objects\Center.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\Segment.cpp">
+    <ClCompile Include="Source\Manager\MapManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\Ball.cpp">
+    <ClCompile Include="Source\Objects\Segment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Manager\SegmentManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -38,22 +41,25 @@
     <ClInclude Include="Source\Game.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\ObjectManager.h">
+    <ClInclude Include="Source\Manager\Manager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Manager.h">
+    <ClInclude Include="Source\Manager\ObjectManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Object.h">
+    <ClInclude Include="Source\Objects\Center.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Ball.h">
+    <ClInclude Include="Source\Objects\Object.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\MapManager.h">
+    <ClInclude Include="Source\Manager\MapManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Segment.h">
+    <ClInclude Include="Source\Objects\Segment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Manager\SegmentManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

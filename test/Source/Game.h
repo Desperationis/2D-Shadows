@@ -20,10 +20,8 @@ public:
 
 private:
 	std::unique_ptr<sf::RenderWindow> window;
-	sf::ContextSettings settings;
-	
 	std::vector<Manager*> managers;
-
-	bool running = false;
+	sf::ContextSettings settings;
 	sf::Event event;
+	bool running = false;
 };
